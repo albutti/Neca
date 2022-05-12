@@ -5,37 +5,287 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.CSS">
+    <script type="text/javascript" src="script.js">
+    </script>
     <link rel="shortcut icon" href="Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
     <title>Neca Home</title>
 </head>
 <body>
     <header>
         <nav class="guia">
-            <a href="home.html"><img src="imagens/logo_neca.png" alt="logo" class="logo_neca"></a></div>
+            <a href="index.html"><img src="imagens/logo_neca.png" alt="logo" class="logo_neca"></a></div>
             <a href="historia.html" class="divmenu">Historia</a></div>
             <a href="producoes.html" class="divmenu">Produções</a></div>
             <a href="grupo.html" class="divmenu">Grupo</a></div>
             <a href="projetos.html" class="divmenu">Projetos</a></div>
             <a href="contato.html" class="divmenu">Contato</a></div>
-            <a href="home.html" class="divmenu"><img src="imagens/masc3-semfundo.png" class="divlogo2"></a>
+            <a href="index.html" class="divmenu"><img src="imagens/masc3-semfundo.png" class="divlogo2"></a>
         </nav>
     </header>
     <br>
     <section class="grupo_pag_grupo">
         <h3>Grupo</h3>
-        <div class="divgrupo"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
-        <div class="divgrupo"><img src="imagens/rebecca.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
-        <div class="divgrupo"><img src="imagens/humberto.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
-        <div class="divgrupo"><img src="imagens/livia.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_mikaella();"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_rebecca();"><img src="imagens/rebecca.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_julia();"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_livia();"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
         <br>
         <br>
-        <div class="divgrupo"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
-        <div class="divgrupo"><img src="imagens/rebecca.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
-        <div class="divgrupo"><img src="imagens/humberto.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
-        <div class="divgrupo"><img src="imagens/livia.jpg" alt="foto ator" class="foto_ator"><p>Nome ator</p></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_fernanda();"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_murilo();"><img src="imagens/rebecca.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_marcus();"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
+        <div class="divgrupo"><a href="javascript: abrir_cv_alvaro();"><img src="imagens/Mikaella.jpg" alt="foto ator" class="foto_ator"><p class="link_curriculo">Nome ator</p></a></div>
         <br>
         <br>
     </section>
+    <div id="popup_mikaella" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_mikaella();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/Mikaella.jpg" alt="foto mika" class="foto_ator">
+            <p>Nome: Mikaella Rodrigues <br>
+                DRT: 49840<br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_rebecca" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_rebecca();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/rebecca.jpg" alt="foto rebecca" class="foto_ator">
+            <p>Nome: Rebecca <br>
+                DRT: <br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_julia" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_julia();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/julia.jpg" alt="foto julia" class="foto_ator">
+            <p>Nome: Julia <br>
+                DRT: <br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_livia" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_livia();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/livia.jpg" alt="foto livia" class="foto_ator">
+            <p>Nome: livia <br>
+                DRT: <br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_fernanda" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_fernanda();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/fernanda.jpg" alt="foto fernanda" class="foto_ator">
+            <p>Nome: Fernanda <br>
+                DRT: <br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_murilo" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_murilo();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/murilo.jpg" alt="foto murilo" class="foto_ator">
+            <p>Nome: Murilo <br>
+                DRT: <br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_marcus" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_marcus();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/marcus.jpg" alt="foto marcus" class="foto_ator">
+            <p>Nome: Mikaella Rodrigues <br>
+                DRT: 49840<br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
+    <div id="popup_alvaro" class="popup">
+        <header class="topo_curriculo">
+            <a href="javascript: fechar_cv_alvaro();" class="fechar_curriculo"> X </a>
+        </header>
+        <section>
+            <img src="imagens/humberto.jpg" alt="foto alvaro" class="foto_ator">
+            <p>Nome: alvaro <br>
+                DRT: <br>
+                Atriz, Figurinista e Estudante de Psicologia do 4° ano. <br>
+                Formada na Oficina de Atores Pinheiros/SP desde 2016. <br>
+                Possui breve experiência em dança contemporânea, realizando o curso na Oficina
+                Alfredo Volpi, ministrado por Maira Fanton em 2015 e experiência em palhaçaria
+                com a "Oficina de Palhaço com Máscaras da Commedia Dell'Arte" ministrada por
+                Thiago Andreuccetti em 2020. <br>
+                Ao longo da formação atuou nos espetáculos: “As bruxas de Salém” com texto de
+                Arthur Miller - 2015, “A tempestade” de William Shakespeare - 2015 e “Assis Valente
+                - Um musical brasileiro” de Zeno Wilder - 2016, todos dirigidos por Niveo Diegues.
+                Em 2016 trabalhou como assistente de produção para o espetáculo "A fantástica
+                viagem ao mundo encantado" de Monteiro Lobato com direção de Niveo Diegues. <br>
+                Integrante do grupo NECA – Núcleo Experimental de Commedia Dell’Arte, dirigido
+                por Murilo Inforsato desde 2017 - atuando com o espetáculo "Perdida no Jogo do
+                Amor". <br>
+                Figurinista da Peça "Perdida no Jogo do Amor" desde 2019 e Figurinista do
+                Curta-metragem "Cê Faz uns Vídeos?" dirigido por ApenasCelio e Humberto Morais,
+                2021. <br>
+                Na área da publicidade já realizou fotos para propaganda e divulgação da
+                Universidade Anhembi Morumbi, filme para o produto Mercado Livre e realizou o
+                editorial de moda para a marca “Maria Mariá feito a mão”. <br>
+            </p>
+        </section>			
+    </div>
     <br>
     <footer>
         <div class="divrodape"><ins>___Contatos____</ins><br>

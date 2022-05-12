@@ -52,7 +52,7 @@ section{
 }
 
 h3 {
-    text-indent: 10px;
+    text-indent: 10px
     
 }
 div {
@@ -63,9 +63,17 @@ div {
     text-align: center;
 }
 
-.slides {
-    background-color: rgb(247, 206, 120);
+h4 {
+    text-align: left;
 }
+/** Slide **/
+
+.slides {
+    background-color: rgb(252, 253, 168);
+}
+
+/** corpo home**/
+
 .historia {
     margin: auto;
     text-align: justify;
@@ -90,6 +98,19 @@ div {
     
 }
 
+.texto {
+    margin: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.grupo {
+    text-align: justify;
+    margin: auto;
+    padding: 0px 100px 0px 100px;
+}
+/** pagina sobre as produções **/
 .producoes_pag_producoes {
     border-radius: 10px;
     border: 2px solid black;
@@ -100,17 +121,22 @@ div {
     box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
 }
 
-.texto {
-    margin: 10px;
-    text-indent: 10px;
+.div_amor_texto {
+    width: 700px;
+    text-align: left;
+    height: 150px;
+    text-align: top;
 }
 
-.grupo {
-    text-align: justify;
-    margin: auto;
-    padding: 0px 100px 0px 100px;
+.div_amor_foto {
+    text-align: center center;
 }
-
+.foto_grupo_producoes {
+    width: 300px;
+    height: 170px;
+    object-position: center center;
+}
+/** pagina sobre grupo **/ 
 .grupo_pag_grupo {
     border-radius: 10px;
     border: 2px solid black;
@@ -125,6 +151,47 @@ div {
 .divgrupo {
     border: 1px;
     border-radius: 100px;
+    
+}
+
+.link_curriculo{
+    text-decoration: none;
+    color: black;
+}
+
+.popup{
+    position: fixed;
+    top: 0; bottom: 0; 
+    left: 0; right:0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    padding: 15px;
+    border: solid 1px #4c4d4f;
+    border-radius: 20px;
+    background: #f7ad74;
+    display: none;
+    text-align: left;
+    box-shadow: 5px 5px 500px 800px rgba(1, 1, 17, 0.521);
+}
+
+.fechar_curriculo {
+    background-position: center center;
+    background-color: #ffffff00;
+    text-decoration: none;
+    color: black;
+
+}
+
+.topo_curriculo {
+    margin-left: 750px;
+    width: 30px;
+    background-color: #437cee00;
+}
+
+.x {
+    width: 30px;
+    height: 30px;
 }
 
 .foto_ator {
@@ -140,13 +207,19 @@ div {
     
 }
 
+.projeto_tag {
+    text-align: left;
+}
+
 .projetos_pag_projetos {
     border-radius: 10px;
     border: 2px solid black;
     margin: auto;
     padding: 15px;
+    width: 1000px;
     background-color: rgb(247, 206, 120);
     box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
+    text-align: center;
 }
 
 .saiba_mais {
@@ -188,6 +261,11 @@ footer {
     display: inline-flex;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.texto_social {
     text-decoration: none;
     color: white;
 }
