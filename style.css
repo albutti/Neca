@@ -85,3 +85,8 @@ h4 {
 .projeto_tag {
     text-align: left;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
