@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.CSS">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="shortcut icon" href="Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
+    <form action="envio_contato.php" method="post" name="form"></form>
+    <title>Neca Contato</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="../index.html"><img src="../imagens/logo_neca.png" alt="logo" class="logo_neca"></a></div>
+            <a href="../Historia/historia.html" class="divmenu">Historia</a></div>
+            <a href="../Produções/producoes.html" class="divmenu">Produções</a></div>
+            <a href="../Grupo/grupo.html" class="divmenu">Grupo</a></div>
+            <a href="../Projetos/projetos.html" class="divmenu">Projetos</a></div>
+            <a href="contato.html" class="divmenu">Contato</a></div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <section class="caixa_contato">
+        <h2> Formulario de contato</h2>
+        <br>
+        Nome: <input type="text" name="nome_contato" id="nome_contato"><br><br>
+        Telefone: <input type="tel" name="telefone_contato" id="telefone_contato"><br><br>
+        e-mail: <input type="email" name="email_contato" id="email_contato"><br><br>
+        Assunto: 
+        <select name="select">
+            <option value="producao">Duvidas de produções</option>
+            <option value="projeto">Duvidas de Projetos</option>
+        </select><br><br>
+        Texto:
+        <br>
+        <textarea name="texto_contato" id="texto_contato" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="button" value="Enviar" onclick="envio_contato.php">
+    </section>
+    <br>
+    <br>
+    <footer>
+        <div class="container">
+            <div class="informacoes">
+                <div class="div_rodape">
+                    <p>___Contatos____</p>
+                    <div>
+                        <div>
+                            <img src="../imagens/email.png" alt="email" class="logo_contato">necaexperimental@gmail.com
+                        </div>
+                        <div>
+                            <a href="https://api.whatsapp.com/send?phone=11964535583" target="_blank" rel="external"><img src="../imagens/whatsapp.png" alt="whatsapp" class="logo_contato">(11) 9 9259-7557</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div_rodape">
+                    <p>____Apoio____</p>
+                    <div>
+                         <div class="div_apoio">
+                            <a href="https://teatroitaliaoficial.com.br/" target="_blank" rel="external"><img src="../imagens/Teatro_Italia_Bandeirantes.png" alt="logo do Teatro Italia" class="logo_apoio"></a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="div_rodape">
+                    <p>___Redes_Sociais___</p>
+                    <div>
+                        <div>
+                            <a href="https://www.facebook.com/necaresiste" target="_blank" rel="external" class="texto_social"><img src="../imagens/facebook.png" alt="logo facebook" class="logo_contato">Facebook</a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/necaresiste/" target="_blank" rel="external" class="texto_social"><img src="../Imagens/instagram.png" alt="instagram" class="logo_contato">Instagram</a>
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/channel/UCD8LPbvIRXYHWDIb1SUQGcw" target="_blank" rel="external" class="texto_social"><img src="../imagens/you_tube.png" alt="youtube" class="logo_contato">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <p>&copy; 2022, Grupo NECA, desenvolvido por Caique Albutti</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

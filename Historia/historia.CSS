@@ -1,0 +1,149 @@
+main {
+    align-items: center;
+}
+
+.historia_pag_historia {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 15px 15px 50px;
+    width: 1000px;
+    background-color: rgb(247, 206, 120);
+    box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
+    position: relative;
+}
+
+.linha_tempo {
+    background-color: black;
+    width: 10px;
+    height: 1607px;
+    position: absolute;
+    left: 20px;
+    top: 38px;
+} 
+
+.linha_tempo::after {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.bolinha_2016 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 51px;
+}
+
+.bolinha_2017 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 268px;
+}
+
+.bolinha_2018 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 600px;
+}
+
+.bolinha_2019 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 817px;
+}
+
+.bolinha_2020 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 969px;
+}
+
+.bolinha_2021 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 1138px;
+}
+
+.bolinha_2022 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 1253px;
+}
+
+.bolinha_2023 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 1405px;
+}
+
+.bolinha_breve{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+    top: 1566px;
+}
+
+
+.bolinha_dentro {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+
+.ponte {
+    background-color: black;
+    width: 47px;
+    height: 4px;
+    position: absolute;
+    left: 29px;
+    top: 14px;
+}
+
+.texto {
+    margin: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;
+}
+

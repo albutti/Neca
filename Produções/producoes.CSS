@@ -1,0 +1,35 @@
+main {
+    align-items: center;
+}
+
+.producoes_pag_producoes {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+    width: 1000px;
+    background-color: rgb(247, 206, 120);
+    box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto_foto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_amor_foto {
+    text-align: center center;
+}
+.foto_grupo_producoes {
+    width: 300px;
+    height: 170px;
+    object-position: center center;
+}
+
+.texto {
+    margin-right: 30px;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;
+}

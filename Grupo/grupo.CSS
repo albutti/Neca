@@ -1,0 +1,79 @@
+main {
+    display: flex;
+}
+.grupo_pag_grupo {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 15px;
+    width: 1000px;
+    background-color: rgb(247, 206, 120);
+    box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
+    text-align: center;
+    
+}
+
+.atores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divgrupo {
+    border: 1px;
+    border-radius: 100px;
+}
+
+.divgrupo a{
+    text-decoration: none;
+}
+
+.link_curriculo{
+    text-decoration: none;
+    color: black;
+}
+
+.popup{
+    position: fixed;
+    top: 0; bottom: 0; 
+    left: 0; right:0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    padding: 15px;
+    border: solid 1px #4c4d4f;
+    border-radius: 20px;
+    background: #f7ad74;
+    display: none;
+    text-align: left;
+    box-shadow: 5px 5px 500px 800px rgba(1, 1, 17, 0.521);
+}
+
+.fechar_curriculo {
+    background-position: center center;
+    background-color: #ffffff00;
+    text-decoration: none;
+    color: black;
+
+}
+
+.topo_curriculo {
+    margin-left: 750px;
+    width: 30px;
+    background-color: #437cee00;
+}
+
+.x {
+    width: 30px;
+    height: 30px;
+}
+
+.foto_ator {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 150px;
+}
+
+
+

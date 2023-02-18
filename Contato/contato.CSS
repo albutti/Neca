@@ -1,0 +1,16 @@
+.caixa_contato {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    background-color: rgb(247, 206, 120);
+    box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
+}
+
+.texto {
+    margin: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;
+}
