@@ -58,7 +58,7 @@ main {
 }
 
 .container {
-    width: 1200px;
+    width: 1289px;;
 }
 
 /**   Rodapé  **/
@@ -98,6 +98,8 @@ footer a {
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+    width: 200px;
+    height: 171px;
 }
 
 .div_rodape div {
@@ -114,6 +116,8 @@ footer a {
 
 .div_rodape p {
     text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white; 
 }
 
 .logo_contato {

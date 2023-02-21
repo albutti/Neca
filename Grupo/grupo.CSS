@@ -75,5 +75,18 @@ main {
     border-radius: 150px;
 }
 
+.dados_pessoaos_popup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
+.dados_pessoaos_popup div:last-of-type {
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 10px;
+}
 
+.dados_pessoaos_popup div:last-of-type p {
+    margin: 5px 0px 5px 0px;
+}

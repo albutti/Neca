@@ -25,7 +25,7 @@ main {
 
 .slides {
     background-color: rgb(252, 253, 168);
-    width: 1260px;
+    width: 1349px;
     align-items: center;
 }
 
@@ -33,13 +33,13 @@ main {
 .historia {
     margin: auto;
     text-align: justify;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 30px 10px 30px;
 }
 
 .producoes {
     background-color: rgb(247, 206, 120);
     margin: auto;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 30px 10px 30px;
     text-align:justify;
     
 }
@@ -84,7 +84,7 @@ main {
 .projetos {
     background-color: rgb(247, 206, 120);
     margin: auto;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 30px 10px 30px;
     
 }
 
@@ -95,4 +95,11 @@ main {
 a {
     text-decoration: none;
     color: black;
+}
+
+.saiba_mais {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
 }
