@@ -17,10 +17,16 @@ div {
 h4 {
     text-align: left;
 }
+
+main {
+    align-items: center;
+}
 /** Slide **/
 
 .slides {
     background-color: rgb(252, 253, 168);
+    width: 1260px;
+    align-items: center;
 }
 
 /** corpo home**/
