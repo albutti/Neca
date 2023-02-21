@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contato.CSS">
     <link rel="stylesheet" href="../main.css">
-    <link rel="shortcut icon" href="Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
     <form action="envio_contato.php" method="post" name="form"></form>
     <title>Neca Contato</title>
 </head>
@@ -21,28 +21,49 @@
             <a href="contato.html" class="divmenu">Contato</a></div>
         </nav>
     </header>
-    <br>
-    <br>
     <section class="caixa_contato">
-        <h2> Formulario de contato</h2>
-        <br>
-        Nome: <input type="text" name="nome_contato" id="nome_contato"><br><br>
-        Telefone: <input type="tel" name="telefone_contato" id="telefone_contato"><br><br>
-        e-mail: <input type="email" name="email_contato" id="email_contato"><br><br>
-        Assunto: 
-        <select name="select">
-            <option value="producao">Duvidas de produções</option>
-            <option value="projeto">Duvidas de Projetos</option>
-        </select><br><br>
-        Texto:
-        <br>
-        <textarea name="texto_contato" id="texto_contato" cols="50" rows="10"></textarea>
-        <br>
-        <br>
-        <input type="button" value="Enviar" onclick="envio_contato.php">
+        <form action="https://formsubmit.co/caique.albutti@hotmail.com" method="POST">
+            <h2> Formulario de contato</h2>
+            <div>
+                <label for="nome_contato">Nome: </label>
+                <input type="text" name="Nome" id="nome_contato" required>
+            </div>
+            <div>
+                <label for="telefone_contato">Telefone: </label>
+                <input type="tel" name="Telefone" id="telefone_contato" required>
+            </div>
+            <div>
+                <label for="email_contato">Email: </label>
+                <input type="email" name="e-mail" id="email_contato" required>
+            </div>
+            <div>
+                <label for="assunto_contato">Assunto:</label>
+                <select name="Assunto" id="assunto_contato">
+                    <option value="Duvidas de produção">Duvidas de produções</option>
+                    <option value="Duvidas de Projetos">Duvidas de Projetos</option>
+                </select>
+                </div>
+            <div>
+                <label for="texto_contato">Texto</label>
+                <textarea name="Mensagem" id="texto_contato" cols="50" rows="10" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
-    <br>
-    <br>
+    <section>
+        <div class="contato email">
+            <div>
+                <img src="../imagens/email.png" alt="email" class="logo_contato_"><p>Email</p> 
+            </div>
+            <p>necaexperimental<br>@gmail.com
+        </div>
+        <div class="contato">
+            <div>
+                <img src="../imagens/whatsapp.png" alt="whatsapp" class="logo_contato_"><p>Whatsapp</p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=11992597557" target="_blank" rel="external"><p>(11) 9 9259-7557</p></a>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="informacoes">
@@ -53,7 +74,7 @@
                             <img src="../imagens/email.png" alt="email" class="logo_contato">necaexperimental@gmail.com
                         </div>
                         <div>
-                            <a href="https://api.whatsapp.com/send?phone=11964535583" target="_blank" rel="external"><img src="../imagens/whatsapp.png" alt="whatsapp" class="logo_contato">(11) 9 9259-7557</a>
+                            <a href="https://api.whatsapp.com/send?phone=11992597557" target="_blank" rel="external"><img src="../imagens/whatsapp.png" alt="whatsapp" class="logo_contato">(11) 9 9259-7557</a>
                         </div>
                     </div>
                 </div>

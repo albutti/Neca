@@ -1,7 +1,11 @@
+main {
+    display: flex;
+}
+
 .caixa_contato {
     border-radius: 10px;
     border: 2px solid black;
-    margin: auto;
+    margin: 20px auto;
     padding: 15px;
     width: 500px;
     background-color: rgb(247, 206, 120);
@@ -13,4 +17,72 @@
     text-indent: 10px;
     text-align: justify;
     padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form div:last-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-of-type {
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(255, 161, 161);
+    display: flex;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.contato {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    height: 200px;
+    width: 300px;
+}
+
+.contato:last-of-type {
+    border-left: 1px solid black;
+}
+
+.contato div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contato p{
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo_contato_ {
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
 }
