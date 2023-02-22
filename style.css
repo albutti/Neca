@@ -123,6 +123,10 @@ a {
         align-items: end;
     }
 
+    .slides {
+        width: 410px;
+    }
+
     .gallery {
         width: 380px;
         display: flex;
@@ -137,7 +141,7 @@ a {
     }
 
     .container   {
-        width: 381px;
+        width: 355px;
     }
 
     .texto {
