@@ -124,7 +124,7 @@ a {
     }
 
     .slides {
-        width: 410px;
+        width: 400px;
     }
 
     .gallery {
@@ -178,5 +178,9 @@ a {
 
     .informacoes {
         flex-direction: column;
+    }
+
+    .historia .producoes .projetos{
+        padding: 0px 0px 0px 0px;
     }
 }
