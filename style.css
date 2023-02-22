@@ -109,6 +109,10 @@ a {
         align-items: center;
     }
 
+    header {
+        width: 414px;
+    }
+
     nav:last-of-type {
         display: none;
     }
@@ -116,7 +120,6 @@ a {
     .mobile {
         display: flex;
         height: 100px;
-        width: 380px;
     }
 
     .logo_neca {
@@ -124,16 +127,17 @@ a {
     }
 
     .slides {
-        width: 400px;
+        width: 436px;
     }
 
     .gallery {
-        width: 380px;
-        display: flex;
+        width: 390px;
+        left: 12px;
+        top: 0px;
     }
 
     .imagem_slide {
-        width: 380px;
+        width: 390px;
     }
 
     .controls .control-button {
@@ -174,13 +178,15 @@ a {
 
     footer {
         height: 600px;
+        width: 414px;
     }
 
     .informacoes {
         flex-direction: column;
+        align-items: center;
     }
 
     .historia .producoes .projetos{
-        padding: 0px 0px 0px 0px;
+        padding: 0px -5px -5px -5px;
     }
 }
