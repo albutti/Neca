@@ -13,6 +13,10 @@ header {
     justify-content: center;
 }
 
+.mobile {
+    display: none;
+}
+
 header nav {
     display: flex;
     justify-content: space-around;

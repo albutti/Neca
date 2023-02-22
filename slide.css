@@ -55,7 +55,7 @@
 .gallery .control-button {
     display: inline-block;
     margin-right: 0.02em;
-    font-size: 3em;
+    font-size: 6em;
     text-align: center;
     text-decoration: none;
     transition: color .1s;

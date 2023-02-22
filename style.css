@@ -103,3 +103,76 @@ a {
     font-weight: bold;
     font-size: 15px;
 }
+
+@media (max-width: 420px) {
+    main {
+        align-items: center;
+    }
+
+    nav:last-of-type {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        height: 100px;
+        width: 380px;
+    }
+
+    .logo_neca {
+        align-items: end;
+    }
+
+    .gallery {
+        width: 380px;
+        display: flex;
+    }
+
+    .imagem_slide {
+        width: 380px;
+    }
+
+    .controls .control-button {
+        font-size: 17em;
+    }
+
+    .container   {
+        width: 381px;
+    }
+
+    .texto {
+        font-size: 20px;
+        
+    }
+
+    h3 {
+        font-size: 35px;
+        margin-bottom: -10px;
+    }
+
+    .saiba_mais {
+        font-size: 25px;
+    }
+
+    .atores {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .divgrupo:last-of-type {
+        display: none;
+    }
+
+    .foto_ator {
+        width: 150px;
+    }
+
+    footer {
+        height: 600px;
+    }
+
+    .informacoes {
+        flex-direction: column;
+    }
+}
