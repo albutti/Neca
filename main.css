@@ -13,8 +13,43 @@ header {
     justify-content: center;
 }
 
-.mobile {
+header .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
     display: none;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.menu div {
+    background-color: white;
+    width: 25px;
+    height: 5px;
+    border-radius: 2px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 header nav {
@@ -32,6 +67,10 @@ header nav a {
 .fotoslide {
     width: 500px;
     height: 200px;
+}
+
+.logo {
+    display: contents;
 }
 
 .logo_neca {
@@ -62,7 +101,7 @@ main {
 }
 
 .container {
-    width: 1289px;;
+    width: 1289px;
 }
 
 /**   Rodapé  **/
@@ -136,4 +175,65 @@ footer a {
 .logo_apoio {
     width: 100px;
     margin-top: 10px;
+}
+
+@media (max-width: 420px) {
+    main {
+        align-items: center;
+    }
+
+    header {
+        width: 414px;
+    }
+
+    .logo {
+        margin-left: -30px;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: -300px;
+    }
+
+    .container   {
+        width: 355px;
+    }
+
+    .texto {
+        font-size: 20px;
+        
+    }
+
+    h3 {
+        font-size: 35px;
+        margin-bottom: -10px;
+    }
+
+    footer {
+        height: 600px;
+        width: 414px;
+    }
+
+    .informacoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 86px;
+        width: 100%;
+        color: white;
+        background-color: rgba(54, 54, 54, 0.986);
+        align-items: flex-start;
+    }
+
+    .gambiarra {
+        display: none;
+        height: 449px;
+        width: 414px;
+    }
 }

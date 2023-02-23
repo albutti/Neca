@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contato.CSS">
     <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="contato.CSS">
     <link rel="shortcut icon" href="../Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
-    <form action="envio_contato.php" method="post" name="form"></form>
     <title>Neca Contato</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu").addEventListener("click", function(){
+                if(document.querySelector(".container div nav ul").style.display == 'flex') {
+                    document.querySelector(".container div nav ul").style.display = 'none';
+                    document.querySelector(".gambiarra").style.display = 'none';
+                } else {
+                    document.querySelector(".container div nav ul").style.display = 'flex';
+                    document.querySelector(".gambiarra").style.display = 'flex';
+
+                }
+            });
+        };
+    </script>
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a></div>
-            <a href="../Historia/historia.html" class="divmenu">Historia</a></div>
-            <a href="../Produções/producoes.html" class="divmenu">Produções</a></div>
-            <a href="../Grupo/grupo.html" class="divmenu">Grupo</a></div>
-            <a href="../Projetos/projetos.html" class="divmenu">Projetos</a></div>
-            <a href="contato.html" class="divmenu">Contato</a></div>
-        </nav>
+    <header >
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a>
+            </div>
+            <div class="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="../Historia/historia.html" class="divmenu">Historia</a>
+                        <li><a href="../Produções/producoes.html" class="divmenu">Produções</a>
+                        <li><a href="../Grupo/grupo.html" class="divmenu">Grupo</a>
+                        <li><a href="../Projetos/projetos.html" class="divmenu">Projetos</a>
+                        <li><a href="contato.html" class="divmenu">Contato</a>
+                    </ul>
+                </nav>
+            </div> 
+        </div>    
     </header>
+    <div class="gambiarra"></div>
     <section class="caixa_contato">
         <form action="https://formsubmit.co/caique.albutti@hotmail.com" method="POST">
             <h2> Formulario de contato</h2>
@@ -45,7 +72,7 @@
                 </div>
             <div>
                 <label for="texto_contato">Texto</label>
-                <textarea name="Mensagem" id="texto_contato" cols="50" rows="10" required></textarea>
+                <textarea name="Mensagem" id="texto_contato" cols="45" rows="10" required></textarea>
             </div>
             <button type="submit">Enviar</button>
         </form>

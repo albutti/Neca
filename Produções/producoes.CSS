@@ -33,3 +33,38 @@ main {
     text-align: justify;
     padding: 10px;
 }
+
+@media (max-width: 420px) {
+    .producoes_pag_producoes  {
+        width: 350px;
+        height: 100%;
+    }
+
+    .texto_foto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_amor_foto { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+        
+    .logo_neca {
+        margin-left: -27px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -68px;
+        margin-top: 17px;
+    }
+
+   .menu div {
+        align-items: center;
+    }
+}

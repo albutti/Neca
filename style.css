@@ -105,27 +105,6 @@ a {
 }
 
 @media (max-width: 420px) {
-    main {
-        align-items: center;
-    }
-
-    header {
-        width: 414px;
-    }
-
-    nav:last-of-type {
-        display: none;
-    }
-
-    .mobile {
-        display: flex;
-        height: 100px;
-    }
-
-    .logo_neca {
-        align-items: end;
-    }
-
     .slides {
         width: 436px;
     }
@@ -144,20 +123,6 @@ a {
         font-size: 17em;
     }
 
-    .container   {
-        width: 355px;
-    }
-
-    .texto {
-        font-size: 20px;
-        
-    }
-
-    h3 {
-        font-size: 35px;
-        margin-bottom: -10px;
-    }
-
     .saiba_mais {
         font-size: 25px;
     }
@@ -174,16 +139,6 @@ a {
 
     .foto_ator {
         width: 150px;
-    }
-
-    footer {
-        height: 600px;
-        width: 414px;
-    }
-
-    .informacoes {
-        flex-direction: column;
-        align-items: center;
     }
 
     .historia .producoes .projetos{

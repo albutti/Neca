@@ -75,18 +75,68 @@ main {
     border-radius: 150px;
 }
 
-.dados_pessoaos_popup {
+.dados_pessoais_popup {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.dados_pessoaos_popup div:last-of-type {
+.dados_pessoais_popup div:last-of-type {
     margin-left: 30px;
     font-size: 30px;
     margin-top: 10px;
 }
 
-.dados_pessoaos_popup div:last-of-type p {
+.dados_pessoais_popup div:last-of-type p {
     margin: 5px 0px 5px 0px;
+}
+
+@media (max-width: 420px) {
+    .logo_neca {
+        margin-left: -27px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -68px;
+        margin-top: 17px;
+    }
+
+   .menu div {
+        align-items: center;
+    }
+
+    .grupo_pag_grupo {
+        padding: 9px;
+        width: 356px;
+    }
+
+    .foto_ator {
+        width: 100px;
+    }
+
+    .atores {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 20px;
+    }
+
+    .popup {
+        width: 327px;
+    }
+
+    .fechar_curriculo {
+        position: relative;
+        left: -443px;
+        top: -3px;
+        font-size: 30px;
+    }
+
+    .dados_pessoais_popup {
+        flex-direction: column;
+        align-items: center;
+    }
 }

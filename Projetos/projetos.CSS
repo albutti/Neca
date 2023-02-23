@@ -1,12 +1,16 @@
+main {
+    align-items: center;
+}
+
 .projetos_pag_projetos {
     border-radius: 10px;
     border: 2px solid black;
-    margin: auto;
     padding: 15px;
     width: 1000px;
     background-color: rgb(247, 206, 120);
     box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
     text-align: center;
+    margin: 20px auto 20px auto;
 }
 
 .projetos {
@@ -25,4 +29,33 @@
     text-indent: 10px;
     text-align: justify;
     padding: 10px;
+}
+
+@media (max-width: 420px) {
+    .projetos_pag_projetos {
+        width: 350px;
+        height: 100%;
+    }
+
+    .saiba_mais {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .logo_neca {
+        margin-left: -27px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -68px;
+        margin-top: 17px;
+    }
+
+   .menu div {
+        align-items: center;
+    }
 }

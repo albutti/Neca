@@ -4,22 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="grupo.CSS">
     <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="grupo.CSS">
     <link rel="shortcut icon" href="../Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
-    <title>Neca Home</title>
+    <title>Neca Grupo</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu").addEventListener("click", function(){
+                if(document.querySelector(".container div nav ul").style.display == 'flex') {
+                    document.querySelector(".container div nav ul").style.display = 'none';
+                    document.querySelector(".gambiarra").style.display = 'none';
+                } else {
+                    document.querySelector(".container div nav ul").style.display = 'flex';
+                    document.querySelector(".gambiarra").style.display = 'flex';
+
+                }
+            });
+        };
+    </script>
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a></div>
-            <a href="../Historia/historia.html" class="divmenu">Historia</a></div>
-            <a href="../Produções/producoes.html" class="divmenu">Produções</a></div>
-            <a href="grupo.html" class="divmenu">Grupo</a></div>
-            <a href="../Projetos/projetos.html" class="divmenu">Projetos</a></div>
-            <a href="../Contato/contato.html" class="divmenu">Contato</a></div>
-        </nav>
+    <header >
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a>
+            </div>
+            <div class="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="../Historia/historia.html" class="divmenu">Historia</a>
+                        <li><a href="../Produções/producoes.html" class="divmenu">Produções</a>
+                        <li><a href="grupo.html" class="divmenu">Grupo</a>
+                        <li><a href="../Projetos/projetos.html" class="divmenu">Projetos</a>
+                        <li><a href="../Contato/contato.html" class="divmenu">Contato</a>
+                    </ul>
+                </nav>
+            </div> 
+        </div>    
     </header>
+    <div class="gambiarra"></div>
         <section class="grupo_pag_grupo">
             <h3>Grupo</h3>
             <div class="atores">
@@ -107,7 +135,7 @@
             <a href="javascript: fechar_cv_mikaella();" class="fechar_curriculo"> X </a>
         </header>
         <section>
-            <div class="dados_pessoaos_popup">
+            <div class="dados_pessoais_popup">
                 <div>
                     <img src="../Imagens/ator.png" alt="foto alvaro" class="foto_ator">
                 </div>
@@ -116,7 +144,7 @@
                     <p>DRT: <strong>Numero</strong></p>
                 </div>
             </div>
-            <p><br><br><strong>Curriculo</strong></p></p>
+            <p><br><strong>Curriculo</strong></p></p>
         </section>		
     </div>
     <footer>

@@ -4,36 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="projetos.CSS">
     <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="projetos.CSS">
     <link rel="shortcut icon" href="../Imagens/favicon_io (1)/favicon.ico" type="image/x-icon">
-    <title>Neca Home</title>
+    <title>Neca Projeto</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu").addEventListener("click", function(){
+                if(document.querySelector(".container div nav ul").style.display == 'flex') {
+                    document.querySelector(".container div nav ul").style.display = 'none';
+                    document.querySelector(".gambiarra").style.display = 'none';
+                } else {
+                    document.querySelector(".container div nav ul").style.display = 'flex';
+                    document.querySelector(".gambiarra").style.display = 'flex';
+
+                }
+            });
+        };
+    </script>
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a></div>
-            <a href="../Historia/historia.html" class="divmenu">Historia</a></div>
-            <a href="../Produções/producoes.html" class="divmenu">Produções</a></div>
-            <a href="../Grupo/grupo.html" class="divmenu">Grupo</a></div>
-            <a href="projetos.html" class="divmenu">Projetos</a></div>
-            <a href="../Contato/contato.html" class="divmenu">Contato</a></div>
-        </nav>
+    <header >
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a>
+            </div>
+            <div class="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="../Historia/historia.html" class="divmenu">Historia</a>
+                        <li><a href="../Produções/producoes.html" class="divmenu">Produções</a>
+                        <li><a href="../Grupo/grupo.html" class="divmenu">Grupo</a>
+                        <li><a href="projetos.html" class="divmenu">Projetos</a>
+                        <li><a href="../Contato/contato.html" class="divmenu">Contato</a>
+                    </ul>
+                </nav>
+            </div> 
+        </div>    
     </header>
-    <br>
+    <div class="gambiarra"></div>
     <section class="projetos_pag_projetos">
         <h2>Projetos</h2>
         <h3 class="projeto_tag">PERDIDA NO JOGO DO AMOR | 60 MIN.</h3>
-        <br>
         <h4>Sinopse</h4>
         <p class="texto">Isabela é apostada por seu pai num jogo de cartas. A moça, antes noiva de Flávio, agora está em vias de se casar com outro homem; Capitano – um trapaceiro inveterado. Mas na Commedia Dell'Arte o amor sempre vence. E mais uma vez vencerá.</p>
-        <br>
         <h4>O canovaccio</h4>
         <p class="texto">Pantalone, Dottore e Capitano estão jogando cartas. Percebendo que está sem dinheiro, Pantalone faz de tudo para ganhar e aposta seu único bem: a mão de sua filha Isabella; que por sua vez está noiva de Flávio, filho de Dottore. Enquanto isso, o enamorado Flávio está na Guerra.</p>
         <p class="texto">Pantalone e seu velho amigo Dottore perdem no baralho. Capitano não se contendo de felicidade, diz que dentro de uma (1) semana se casará com Isabella. Em seu desespero, Pantalone e Dottore se veem em uma situação dificílima: como falar à Isabela que a donzela não se casará mais com seu grande amor?</p>
-        <br>
         <h3 class="projeto_tag">OFICINA – ESPETÁCULO NECA</h3>
-        <br>
         <p class="texto">O projeto aqui descrito refere-se a experiência inovadora com a
             Commedia Dell’arte, em que as máscaras a serem introduzidas em oficina
             são as mesmas contempladas no espetáculo Perdida no Jogo do Amor –
@@ -51,13 +74,10 @@
         <p class="texto">Observamos que além dos inscritos na oficina, o espetáculo pode ser
             aberto ao público. Essa decisão fica a critério do realizador.
         </p>
-        <br>
         <h3>Produção de camisetas</h3>
         <p class="texto">Para conseguirmos monstar nossos cenarios e figurinos realizamos a confecxão de camisetas com o logo do nosso gurpo e de nossa peça "Perdida no jogo do amor!"</p>
         <a href="#" class="saiba_mais">Adiquira já a sua!</a>
     </section>
-    <br>
-    <br>
     <footer>
         <div class="container">
             <div class="informacoes">

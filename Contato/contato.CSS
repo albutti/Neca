@@ -85,4 +85,39 @@ section:last-of-type {
 
 a {
     text-decoration: none;
+} 
+
+@media (max-width: 420px) {
+    .caixa_contato {
+        padding: 9px;
+        width: 356px;
+    }
+
+    section:last-of-type {
+        height: 395px;
+        flex-direction: column;
+        width: 370px;
+    }
+
+    .contato:last-of-type {
+        border-left: none;
+        border-top: 1px solid black;
+    }
+
+    .logo_neca {
+        margin-left: -27px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -68px;
+        margin-top: 17px;
+    }
+
+   .menu div {
+        align-items: center;
+    }
 }
