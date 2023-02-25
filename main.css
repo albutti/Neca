@@ -182,8 +182,9 @@ footer a {
         align-items: center;
     }
 
-    header {
-        width: 414px;
+    header, .container, footer {
+        height: 100%;
+        width: 100%;
     }
 
     .logo {
@@ -195,10 +196,6 @@ footer a {
         margin-right: -300px;
     }
 
-    .container   {
-        width: 355px;
-    }
-
     .texto {
         font-size: 20px;
         
@@ -207,11 +204,6 @@ footer a {
     h3 {
         font-size: 35px;
         margin-bottom: -10px;
-    }
-
-    footer {
-        height: 600px;
-        width: 414px;
     }
 
     .informacoes {

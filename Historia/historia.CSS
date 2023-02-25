@@ -50,7 +50,7 @@ main {
     border-radius: 15px;
     position: absolute;
     left: 11px;
-    top: 640px;
+    top: 658px;
 }
 
 .bolinha_2019 {
@@ -60,7 +60,7 @@ main {
     border-radius: 15px;
     position: absolute;
     left: 11px;
-    top: 857px;
+    top: 875px;
 }
 
 .bolinha_2020 {
@@ -70,7 +70,7 @@ main {
     border-radius: 15px;
     position: absolute;
     left: 11px;
-    top: 1009px;
+    top: 1027px;
 }
 
 .bolinha_2021 {
@@ -80,7 +80,7 @@ main {
     border-radius: 15px;
     position: absolute;
     left: 11px;
-    top: 1178px;
+    top: 1226px;
 }
 
 .bolinha_2022 {
@@ -90,7 +90,7 @@ main {
     border-radius: 15px;
     position: absolute;
     left: 11px;
-    top: 1293px;
+    top: 1341px;
 }
 
 .bolinha_2023 {
@@ -100,7 +100,7 @@ main {
     border-radius: 15px;
     position: absolute;
     left: 11px;
-    top: 1445px;
+    top: 1559px;
 }
 
 .bolinha_breve{
@@ -143,11 +143,11 @@ main {
 @media (max-width: 420px) {
     .historia_pag_historia {
         height: 100%;
-        width: 350px;
+        width: 80%;
     }
 
     .linha_tempo {
-        height: 4300px;
+        height: 98%;
         left: 27px;
         top: 67px;
     }

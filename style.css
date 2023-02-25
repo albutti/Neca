@@ -106,13 +106,11 @@ a {
 
 @media (max-width: 420px) {
     .slides {
-        width: 436px;
+        width: 100%;
     }
 
     .gallery {
-        width: 390px;
-        left: 12px;
-        top: 0px;
+        width: 100%;
     }
 
     .imagem_slide {
@@ -125,6 +123,7 @@ a {
 
     .saiba_mais {
         font-size: 25px;
+        margin-left: 10px;
     }
 
     .atores {
@@ -141,7 +140,8 @@ a {
         width: 150px;
     }
 
-    .historia .producoes .projetos{
-        padding: 0px -5px -5px -5px;
+    .historia, .producoes, .projetos{
+        padding: 0px 5px 20px 5px;
+        margin: 0;
     }
 }
