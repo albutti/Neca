@@ -10,7 +10,7 @@ main {
     background-color: rgb(247, 206, 120);
     box-shadow: 5px 5px 10px rgba(1, 1, 17, 0.664);
     text-align: center;
-    margin: 20px auto 20px auto;
+    margin: 10px auto;
 }
 
 .projetos {
@@ -41,7 +41,7 @@ h4 {
 
 @media (max-width: 420px) {
     .projetos_pag_projetos {
-        width: 100%;
+        width: 90%;
         height: 100%;
     }
 
