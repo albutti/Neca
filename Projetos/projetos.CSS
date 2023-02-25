@@ -41,7 +41,7 @@ h4 {
 
 @media (max-width: 420px) {
     .projetos_pag_projetos {
-        width: 350px;
+        width: 100%;
         height: 100%;
     }
 

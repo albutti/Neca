@@ -90,7 +90,7 @@ a {
 @media (max-width: 420px) {
     .caixa_contato {
         padding: 9px;
-        width: 356px;
+        width: 100%;
     }
 
     section:last-of-type {
