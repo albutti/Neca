@@ -135,49 +135,49 @@ main {
     }
 
     .linha_tempo {
-        height: 98%;
+        height: 95%;
         left: 27px;
         top: 67px;
     }
 
     .bolinha_2016 {
         left: 17px;
-        top: 120px;
+        top: 80px;
     }
 
     .bolinha_2017 {
         left: 17px;
-        top: 797px;
+        top: 405px;
     }
     
     .bolinha_2018 {
         left: 17px;
-        top: 1902px;
+        top: 930px;
     }
     
     .bolinha_2019 {
         left: 17px;
-        top: 2579px;
+        top: 1270px;
     }
     
     .bolinha_2020 {
         left: 17px;
-        top: 3065px;
+        top: 1510px;
     }
     
     .bolinha_2021 {
         left: 17px;
-        top: 3719px;
+        top: 1835px;
     }
     
     .bolinha_2022 {
         left: 17px;
-        top: 3998px;
+        top: 2000px;
     }
     
     .bolinha_2023 {
         left: 17px;
-        top: 4629px;
+        top: 2310px;
     }
 
     .logo_neca {
@@ -195,5 +195,9 @@ main {
 
    .menu div {
         align-items: center;
+    }
+
+    .texto {
+        margin: 5px 5px 4px 0;
     }
 }
