@@ -120,4 +120,8 @@ a {
    .menu div {
         align-items: center;
     }
+
+    textarea {
+        width: 90%;
+    }
 }
