@@ -2,6 +2,15 @@ main {
     align-items: center;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+
 .historia_pag_historia {
     border-radius: 10px;
     border: 2px solid black;
@@ -16,90 +25,20 @@ main {
 .linha_tempo {
     background-color: black;
     width: 10px;
-    height: 1586px;
+    height: 95%;
     position: absolute;
     left: 20px;
     top: 38px;
 } 
 
-.bolinha_2016 {
+.bolinha {
     background-color: black;
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 91px;
-}
-
-.bolinha_2017 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 308px;
-}
-
-.bolinha_2018 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 658px;
-}
-
-.bolinha_2019 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 875px;
-}
-
-.bolinha_2020 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 1027px;
-}
-
-.bolinha_2021 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 1226px;
-}
-
-.bolinha_2022 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 1341px;
-}
-
-.bolinha_2023 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 1559px;
+    position: relative;
+    left: -40px;
+    top: 11px;
 }
 
 .bolinha_dentro {
@@ -122,10 +61,10 @@ main {
 }
 
 .texto {
-    margin: 10px;
+    margin: 0;
     text-indent: 10px;
     text-align: justify;
-    padding: 10px;
+    padding: 5px 5px 3px 5px;
 }
 
 @media (max-width: 420px) {
@@ -140,44 +79,10 @@ main {
         top: 67px;
     }
 
-    .bolinha_2016 {
-        left: 17px;
-        top: 80px;
-    }
-
-    .bolinha_2017 {
-        left: 17px;
-        top: 435px;
-    }
-    
-    .bolinha_2018 {
-        left: 17px;
-        top: 1005px;
-    }
-    
-    .bolinha_2019 {
-        left: 17px;
-        top: 1375px;
-    }
-    
-    .bolinha_2020 {
-        left: 17px;
-        top: 1646px;
-    }
-    
-    .bolinha_2021 {
-        left: 17px;
-        top: 2000px;
-    }
-    
-    .bolinha_2022 {
-        left: 17px;
-        top: 2181px;
-    }
-    
-    .bolinha_2023 {
-        left: 17px;
-        top: 2535px;
+    .bolinha {
+        position: relative;
+        left: -34px;
+        top: 14px;
     }
 
     .logo_neca {
@@ -198,6 +103,15 @@ main {
     }
 
     .texto {
-        margin: 5px 5px 4px 0;
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    h3 {
+        margin: 0;
+    }
+    
+    h2 {
+        margin-bottom: 0;
     }
 }
