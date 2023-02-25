@@ -31,6 +31,14 @@ main {
     padding: 10px;
 }
 
+li {
+    text-align: left;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
 @media (max-width: 420px) {
     .projetos_pag_projetos {
         width: 350px;
