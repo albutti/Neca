@@ -5,8 +5,7 @@ main {
 .historia_pag_historia {
     border-radius: 10px;
     border: 2px solid black;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 10px auto 10px auto;
     padding: 15px 15px 15px 50px;
     width: 1000px;
     background-color: rgb(247, 206, 120);
@@ -103,17 +102,6 @@ main {
     top: 1559px;
 }
 
-.bolinha_breve{
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 11px;
-    top: 1606px;
-}
-
-
 .bolinha_dentro {
     background-color: white;
     width: 15px;
@@ -153,39 +141,43 @@ main {
     }
 
     .bolinha_2016 {
-        top: 53px;
+        left: 17px;
+        top: 120px;
     }
 
     .bolinha_2017 {
-        top: 684px;
+        left: 17px;
+        top: 797px;
     }
     
     .bolinha_2018 {
-        top: 1674px;
+        left: 17px;
+        top: 1902px;
     }
     
     .bolinha_2019 {
-        top: 2282px;
+        left: 17px;
+        top: 2579px;
     }
     
     .bolinha_2020 {
-        top: 2722px;
+        left: 17px;
+        top: 3065px;
     }
     
     .bolinha_2021 {
-        top: 3254px;
+        left: 17px;
+        top: 3719px;
     }
     
     .bolinha_2022 {
-        top: 3510px;
+        left: 17px;
+        top: 3998px;
     }
     
     .bolinha_2023 {
-        top: 3904px;
-    }
-
-    .bolinha_breve{
-        top: 4277px;
+        left: 17px;
+        top: 4629px;
     }
 
     .logo_neca {
