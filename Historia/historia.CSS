@@ -114,4 +114,21 @@ h3 {
     h2 {
         margin-bottom: 0;
     }
+
+    .botao_topo {
+        top: 1946px;
+        left: 292px;
+    }
+
+    .botao_topo .seta_e_topo {
+        left: 29%;
+    }
+
+    .botao_topo .meio {
+        left: 27px;
+    }
+
+    .botao_topo .seta_e_topo:last-of-type {
+        left: 34px;
+    }
 }

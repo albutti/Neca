@@ -24,7 +24,7 @@
     </script>
 </head>
 <body>
-    <header >
+    <header id="header">
         <div class="container">
             <div class="logo">
                 <a href="../index.html"><img src="../Imagens/logo_neca.png" alt="logo" class="logo_neca"></a>
@@ -47,50 +47,52 @@
             </div> 
         </div>    
     </header>
-    <div class="gambiarra"></div>
-    <section class="caixa_contato">
-        <form action="https://formsubmit.co/caique.albutti@hotmail.com" method="POST">
-            <h2> Formulario de contato</h2>
-            <div>
-                <label for="nome_contato">Nome: </label>
-                <input type="text" name="Nome" id="nome_contato" required>
-            </div>
-            <div>
-                <label for="telefone_contato">Telefone: </label>
-                <input type="tel" name="Telefone" id="telefone_contato" required>
-            </div>
-            <div>
-                <label for="email_contato">Email: </label>
-                <input type="email" name="e-mail" id="email_contato" required>
-            </div>
-            <div>
-                <label for="assunto_contato">Assunto:</label>
-                <select name="Assunto" id="assunto_contato">
-                    <option value="Duvidas de produção">Duvidas de produções</option>
-                    <option value="Duvidas de Projetos">Duvidas de Projetos</option>
-                </select>
+    <main>
+        <div class="gambiarra"></div>
+        <section class="caixa_contato">
+            <form action="https://formsubmit.co/caique.albutti@hotmail.com" method="POST">
+                <h2> Formulario de contato</h2>
+                <div>
+                    <label for="nome_contato">Nome: </label>
+                    <input type="text" name="Nome" id="nome_contato" required>
                 </div>
-            <div>
-                <label for="texto_contato">Texto</label>
-                <textarea name="Mensagem" id="texto_contato" cols="45" rows="10" required></textarea>
+                <div>
+                    <label for="telefone_contato">Telefone: </label>
+                    <input type="tel" name="Telefone" id="telefone_contato" required>
+                </div>
+                <div>
+                    <label for="email_contato">Email: </label>
+                    <input type="email" name="e-mail" id="email_contato" required>
+                </div>
+                <div>
+                    <label for="assunto_contato">Assunto:</label>
+                    <select name="Assunto" id="assunto_contato">
+                        <option value="Duvidas de produção">Duvidas de produções</option>
+                        <option value="Duvidas de Projetos">Duvidas de Projetos</option>
+                    </select>
+                    </div>
+                <div>
+                    <label for="texto_contato">Texto</label>
+                    <textarea name="Mensagem" id="texto_contato" cols="45" rows="10" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <div class="contato email">
+                <div>
+                    <img src="../Imagens/email.png" alt="email" class="logo_contato_"><p>Email</p> 
+                </div>
+                <p>necaexperimental<br>@gmail.com
             </div>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <section>
-        <div class="contato email">
-            <div>
-                <img src="../Imagens/email.png" alt="email" class="logo_contato_"><p>Email</p> 
+            <div class="contato">
+                <div>
+                    <img src="../Imagens/whatsapp.png" alt="whatsapp" class="logo_contato_"><p>Whatsapp</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=11992597557" target="_blank" rel="external"><p>(11) 9 9259-7557</p></a>
             </div>
-            <p>necaexperimental<br>@gmail.com
-        </div>
-        <div class="contato">
-            <div>
-                <img src="../Imagens/whatsapp.png" alt="whatsapp" class="logo_contato_"><p>Whatsapp</p>
-            </div>
-            <a href="https://api.whatsapp.com/send?phone=11992597557" target="_blank" rel="external"><p>(11) 9 9259-7557</p></a>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <div class="container">
             <div class="informacoes">

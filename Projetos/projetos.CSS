@@ -66,4 +66,21 @@ h4 {
    .menu div {
         align-items: center;
     }
+
+    .botao_topo {
+        top: 1173px;
+        left: 292px;
+    }
+
+    .botao_topo .seta_e_topo {
+        left: 29%;
+    }
+
+    .botao_topo .meio {
+        left: 27px;
+    }
+
+    .botao_topo .seta_e_topo:last-of-type {
+        left: 34px;
+    }
 }

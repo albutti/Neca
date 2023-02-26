@@ -177,6 +177,43 @@ footer a {
     margin-top: 10px;
 }
 
+.botao_topo {
+    display: none;
+    background-color: #08080875;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1000px;
+    left: 1782px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.botao_topo .seta_e_topo {
+    width: 7px;
+    height: 50%;
+    position: relative;
+    left: -13%;
+    top: 17px;
+    background-color: black;
+    transform: rotateZ(38deg);
+}
+
+.botao_topo .seta_e_topo:last-of-type {
+    position: relative;
+    top: -32px;
+    left: 14px;
+    background-color: rgb(0 0 0);
+    transform: rotateZ(-36deg);
+}
+
+.meio {
+    width: 7px;
+    height: 7px;
+    background-color: aqua;
+}
+
+
 @media (max-width: 420px) {
     main {
         align-items: center;
@@ -229,5 +266,45 @@ footer a {
         display: none;
         height: 449px;
         width: 414px;
+    }
+
+    .botao_topo {
+        display: block;
+        background-color: #0808084d;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 1741px;
+        left: 311px;
+        border-radius: 50px;
+        border: 3px solid #4c4c4c;
+    }
+
+    .botao_topo .seta_e_topo {
+        width: 7px;
+        height: 50%;
+        position: relative;
+        left: -13%;
+        top: 17px;
+        background-color: #4c4c4c;
+        transform: rotateZ(38deg);
+    }
+
+    .botao_topo .meio {
+        position: relative;
+        top: -12px;
+        left: 0;
+        width: 5px;
+        height: 5px;
+        background-color: #4c4c4c;
+        transform: rotateZ(-40deg);  
+    }
+
+    .botao_topo .seta_e_topo:last-of-type {
+        position: relative;  
+        top: -18px;
+        left: 7px;
+        background-color: #4c4c4c;
+        transform: rotateZ(-36deg);
     }
 }
