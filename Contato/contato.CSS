@@ -96,7 +96,7 @@ a {
     section:last-of-type {
         height: 395px;
         flex-direction: column;
-        width: 370px;
+        width: 93%;
     }
 
     .contato:last-of-type {
@@ -123,5 +123,6 @@ a {
 
     textarea {
         width: 90%;
+        align-items: center;
     }
 }

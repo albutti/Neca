@@ -82,7 +82,7 @@ h3 {
     .bolinha {
         position: relative;
         left: -34px;
-        top: 14px;
+        top: 10px;
     }
 
     .logo_neca {
@@ -116,8 +116,9 @@ h3 {
     }
 
     .botao_topo {
-        top: 1946px;
-        left: 292px;
+        position: relative;
+        top: -16px;
+        left: 216px;
     }
 
     .botao_topo .seta_e_topo {

@@ -63,13 +63,14 @@ h4 {
         margin-top: 17px;
     }
 
-   .menu div {
+    .menu div {
         align-items: center;
     }
 
     .botao_topo {
-        top: 1173px;
-        left: 292px;
+        position: relative;
+        top: -16px;
+        left: 260px;
     }
 
     .botao_topo .seta_e_topo {
