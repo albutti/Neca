@@ -89,7 +89,7 @@
             <div>
                 <h3 class="projeto_tag"> 3 - Produção de camisetas</h3>
                 <p class="texto">Para tornar toda a magia de Dell'Art possivel com cenarios, figurinos e máscaras nos como um grupo idependente realizamos a vesda de camisetas de diversos tamanho com nosso logo e com a divulgação de nosso Canovaccio "Perdida no jogo do amor".</p>
-                <a href="#" class="saiba_mais">Adiquira já a sua!</a>
+                <a href="#" class="saiba_mais" onclick="abrir_camiseta()">Adiquira já a sua!</a>
             </div>
             <a href="#header">
                 <div class="botao_topo">
@@ -102,10 +102,43 @@
     </main>
     <div id="popup_camiseta" class="popup">
         <header class="topo_curriculo">
-            <a href="#" class="fechar_camiseta"> X </a>
+            <a href="#" class="fechar_camiseta" onclick="fechar_camiseta()" class="fechar_curriculo"> X </a>
         </header>
         <section>
-        
+            <div>
+                <form action="https://formsubmit.co/caique.albutti@hotmail.com" method="POST">
+                    <div>
+                        <label for="#modelo">Modelo:</label>
+                        <input type="radio" name="modelo" id="NECA">Neca
+                        <input type="radio" name="modelo" id="PERDIDA">Perdida
+                    </div>
+                    <div>
+                        <label for="#tamanho">Tamanho:</label>
+                        <input type="radio" name="tamanho" id="P">P
+                        <input type="radio" name="tamanho" id="M">M
+                        <input type="radio" name="tamanho" id="G">G
+                        <input type="radio" name="tamanho" id="GG">GG
+                    </div>
+                    <div>
+                        <label for="#nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="#valor">Valor:</label>
+                        <strong>R$ 50,00</strong>
+                    </div>
+                    <div>
+                        <img src="../Imagens/QRCode.png" alt="QRCode" class="qrcode">
+                    </div>
+                    <div>
+                        <input type="file" name="comprovante" id="comprovante">
+                    </div>
+                    <button type="submit">Solicitar</button>
+                </form>
+            </div>
+            <div>
+                <img src="../Imagens/6ad4de12-cc76-4356-b604-3dd8805811bb.jpg" alt="camisetas" class="camiseta">
+            </div>
         </section>		
     </div>
     <footer>
@@ -151,4 +184,5 @@
         </div>
     </footer>
 </body>
+<script type="text/javascript" src="../script.js"></script>
 </html>

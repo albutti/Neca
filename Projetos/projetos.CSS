@@ -39,6 +39,73 @@ h4 {
     text-decoration: underline;
 }
 
+.popup{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0; bottom: 0; 
+    left: 0; right:0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    padding: 15px;
+    border: solid 1px #4c4d4f;
+    border-radius: 20px;
+    background: #f7ad74;
+    text-align: left;
+    box-shadow: 5px 5px 500px 800px rgba(1, 1, 17, 0.521);
+}
+
+.popup section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.popup section div {
+    display: flex;
+    align-items: center;
+}
+
+.topo_curriculo {
+    margin-left: 750px;
+    width: 30px;
+    height: 45px;
+    background-color: #437cee00;
+}
+
+.topo_curriculo a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.camiseta {
+    width: 250px;
+    height: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+form label, form input {
+    margin: 10px 5px;
+}
+
+.qrcode {
+    width: 100px;
+    height: 100px;
+}
+
+.saiba_mais {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
 @media (max-width: 420px) {
     .projetos_pag_projetos {
         width: 90%;
