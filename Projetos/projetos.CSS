@@ -40,7 +40,7 @@ h4 {
 }
 
 .popup{
-    display: flex;
+    display: none;
     flex-direction: column;
     position: fixed;
     top: 0; bottom: 0; 

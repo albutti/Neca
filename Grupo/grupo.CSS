@@ -35,7 +35,7 @@ main {
 }
 
 .popup{
-    display: flex;
+    display: none;
     position: fixed;
     top: 0; bottom: 0; 
     left: 0; right:0;
@@ -46,7 +46,6 @@ main {
     border: solid 1px #4c4d4f;
     border-radius: 20px;
     background: #f7ad74;
-    display: none;
     text-align: left;
     box-shadow: 5px 5px 500px 800px rgba(1, 1, 17, 0.521);
 }
