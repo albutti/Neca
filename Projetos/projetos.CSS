@@ -40,7 +40,7 @@ h4 {
 }
 
 .popup{
-    display: none;
+    display: flex;
     flex-direction: column;
     position: fixed;
     top: 0; bottom: 0; 
@@ -68,10 +68,12 @@ h4 {
 }
 
 .topo_curriculo {
-    margin-left: 750px;
-    width: 30px;
-    height: 45px;
     background-color: #437cee00;
+    width: 95%;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .topo_curriculo a {
@@ -150,5 +152,20 @@ form label, form input {
 
     .botao_topo .seta_e_topo:last-of-type {
         left: 34px;
+    }
+
+    .popup{
+        width: 90%;
+        overflow-y: scroll;
+        
+    }
+
+    .popup section {
+        flex-direction: column;
+    }
+
+    .popup section div:last-of-type {
+        justify-content: center;
+        margin-top: 10px;
     }
 }

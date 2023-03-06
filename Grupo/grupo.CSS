@@ -52,11 +52,8 @@ main {
 }
 
 .fechar_curriculo {
-    background-position: center center;
-    background-color: #ffffff00;
     text-decoration: none;
     color: black;
-
 }
 
 .topo_curriculo {
@@ -64,11 +61,6 @@ main {
     width: 30px;
     height: 45px;
     background-color: #437cee00;
-}
-
-.x {
-    width: 30px;
-    height: 30px;
 }
 
 .foto_ator {
